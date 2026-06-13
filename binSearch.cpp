@@ -17,9 +17,12 @@ int binSearch(int *arr,int n,int key){
 
 
     return -1;
-    
-
 }
+
+// Function to find square root of a number using brute force approach
+
+
+
 
 int main(){
     int arr[]={2,4,6,8,10,12,14,16};

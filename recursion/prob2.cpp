@@ -120,27 +120,14 @@ int findSubarray(int arr[], int n, int target){
 int filterProducts(int arr[], int n, int threshold){
     for(int i=0;i<n;i++){
         if(arr[i]>threshold){
-            cout<<arr[i]<<" "
+            cout<<arr[i]<<" ";
         }
     }
     cout<<endl;
     return 0;
 } 
-int filter1(int arr[],int threshold){
-    int acceptedCount = 0;
-    int rejectedCount = 0;
-    for(int i = 0; i<n; i++){
-        if(arr[i]>threshold){
-            acceptedCount++;
-        }else{
-            rejectedCount++;
-        }
-    }
-    cout << "Accepted products: " << acceptedCount << endl;
-    cout << "Rejected products: " << rejectedCount << endl;
-    return 0;
-}
 
+    
 
 int main(){
     int arr[]={85,42,91,67,73,55,88};
