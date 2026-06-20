@@ -16,3 +16,14 @@ bool isAnagram(string s1,string s2){
     }
     return true;
 }
+
+int main(){
+    string s1="listen";
+    string s2="silent";
+    if(isAnagram(s1,s2)){
+        cout<<"anagram\n";
+    } else {
+        cout<<"not an anagram\n";
+    }
+    return 0;
+}
